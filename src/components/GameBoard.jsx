@@ -226,6 +226,7 @@ export default function GameBoard({ player, setPlayer }) {
           opacity: "0.5",
           zIndex: "5",
           display: gameEnd ? "block" : "none",
+          inset: "0",
         }}
       ></div>
       <div className={`absolute z-50 inset-0 ${gameEnd ? "block" : "hidden"}`}>
